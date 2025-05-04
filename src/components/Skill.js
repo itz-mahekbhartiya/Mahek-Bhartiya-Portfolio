@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import {
-  FaCode, FaDatabase, FaReact, FaNodeJs, FaCss3Alt,
+  FaCode, FaReact, FaNodeJs, FaCss3Alt,
   FaHtml5, FaJs, FaJava, FaPython, FaBootstrap,
 } from 'react-icons/fa';
 import {

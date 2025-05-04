@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { FaLinkedin, FaGithub, FaTwitter, FaEnvelope, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
