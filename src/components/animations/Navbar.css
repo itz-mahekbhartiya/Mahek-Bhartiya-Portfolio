@@ -1,0 +1,26 @@
+.fancy-frame {
+  --s: 15px;  /* size of the frame */
+  --b: 2px;   /* border thickness */
+  --w: 500px; /* width of the image increased */
+  --h: 300px; /* height of the image */
+  --c: #7B3B3B;
+  
+  width: var(--w);
+  height: var(--h); /* Keep height the same */
+  aspect-ratio: auto; /* Remove aspect ratio constraint */
+  object-fit: cover;
+  padding: calc(2 * var(--s));
+  
+  /* Shift the image slightly to the left initially */
+  transform: translateX(-10px); /* Move 10px to the left */
+  
+  /* Use box-shadow instead of outline for better handling */
+  box-shadow: 0 0 0 var(--b) rgba(123, 59, 59, 0.1), 0 0 10px rgba(123, 59, 59, 0.1); /* Lighter border effect */
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.fancy-frame:hover {
+  box-shadow: 0 0 0 var(--b) #7B3B3B, 0 0 15px #7B3B3B; /* Apply hover shadow */
+  transform: translateX(10px); /* On hover, move slightly to the right */
+}
