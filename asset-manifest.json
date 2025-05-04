@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/your-repo-name/static/css/main.e0952e2f.css",
+    "main.js": "/your-repo-name/static/js/main.a0a1e4d0.js",
+    "static/js/453.8ab44547.chunk.js": "/your-repo-name/static/js/453.8ab44547.chunk.js",
+    "static/media/projectFIR.png": "/your-repo-name/static/media/projectFIR.90b63df47afe09f2221c.png",
+    "static/media/projectAttendance.png": "/your-repo-name/static/media/projectAttendance.a31e4d1ea0939889f8fb.png",
+    "static/media/projectVPandE.png": "/your-repo-name/static/media/projectVPandE.b2dd0ce8345fca5171f2.png",
+    "static/media/1000225705.jpg": "/your-repo-name/static/media/1000225705.ea387fd2319d7fd3b54e.jpg",
+    "static/media/ServiphiExperienceLetter.jpg": "/your-repo-name/static/media/ServiphiExperienceLetter.0c0b75520a8c1a302370.jpg",
+    "static/media/instagram.png": "/your-repo-name/static/media/instagram.8e408da00539cdef4629.png",
+    "static/media/projectURLShortner.png": "/your-repo-name/static/media/projectURLShortner.55b10be6eec065006cda.png",
+    "static/media/ServiphiOfferLetter.jpg": "/your-repo-name/static/media/ServiphiOfferLetter.4e991ede6f5da564fbb1.jpg",
+    "static/media/github.png": "/your-repo-name/static/media/github.553c66159c5672f25df6.png",
+    "static/media/linkedin.png": "/your-repo-name/static/media/linkedin.d21b834035baa551e886.png",
+    "index.html": "/your-repo-name/index.html",
+    "main.e0952e2f.css.map": "/your-repo-name/static/css/main.e0952e2f.css.map",
+    "main.a0a1e4d0.js.map": "/your-repo-name/static/js/main.a0a1e4d0.js.map",
+    "453.8ab44547.chunk.js.map": "/your-repo-name/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0952e2f.css",
+    "static/js/main.a0a1e4d0.js"
+  ]
+}
