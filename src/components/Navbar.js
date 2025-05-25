@@ -105,7 +105,7 @@ export default function Navbar() {
           />
           <div className="flex gap-4">
             <a
-              href="www.linkedin.com/in/mahek-bhartiya"
+              href="https://www.linkedin.com/in/mahek-bhartiya/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 hover:bg-[#2d1a27] px-2 py-1 rounded"
