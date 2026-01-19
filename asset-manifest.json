@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Mahek-Bhartiya-Portfolio/static/css/main.e0952e2f.css",
-    "main.js": "/Mahek-Bhartiya-Portfolio/static/js/main.209c0524.js",
+    "main.css": "/Mahek-Bhartiya-Portfolio/static/css/main.41e673ac.css",
+    "main.js": "/Mahek-Bhartiya-Portfolio/static/js/main.0844efe3.js",
     "static/js/453.8ab44547.chunk.js": "/Mahek-Bhartiya-Portfolio/static/js/453.8ab44547.chunk.js",
     "static/media/projectFIR.png": "/Mahek-Bhartiya-Portfolio/static/media/projectFIR.90b63df47afe09f2221c.png",
     "static/media/projectAttendance.png": "/Mahek-Bhartiya-Portfolio/static/media/projectAttendance.a31e4d1ea0939889f8fb.png",
@@ -14,12 +14,12 @@
     "static/media/github.png": "/Mahek-Bhartiya-Portfolio/static/media/github.553c66159c5672f25df6.png",
     "static/media/linkedin.png": "/Mahek-Bhartiya-Portfolio/static/media/linkedin.d21b834035baa551e886.png",
     "index.html": "/Mahek-Bhartiya-Portfolio/index.html",
-    "main.e0952e2f.css.map": "/Mahek-Bhartiya-Portfolio/static/css/main.e0952e2f.css.map",
-    "main.209c0524.js.map": "/Mahek-Bhartiya-Portfolio/static/js/main.209c0524.js.map",
+    "main.41e673ac.css.map": "/Mahek-Bhartiya-Portfolio/static/css/main.41e673ac.css.map",
+    "main.0844efe3.js.map": "/Mahek-Bhartiya-Portfolio/static/js/main.0844efe3.js.map",
     "453.8ab44547.chunk.js.map": "/Mahek-Bhartiya-Portfolio/static/js/453.8ab44547.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e0952e2f.css",
-    "static/js/main.209c0524.js"
+    "static/css/main.41e673ac.css",
+    "static/js/main.0844efe3.js"
   ]
 }
