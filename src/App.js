@@ -9,7 +9,7 @@ import Education from './components/Education';
 import Experience from './components/Experience';
 
 function App() {
-  const [showStart, setShowStart] = useState(false);
+  const [showStart, setShowStart] = useState(true);
 
   useEffect(() => {
     const timer = setTimeout(() => { 
