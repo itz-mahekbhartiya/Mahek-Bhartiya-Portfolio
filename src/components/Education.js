@@ -7,7 +7,8 @@ const educationData = [
     level: "Bachelor of Engineering",
     institution: "PDEA's College of Engineering, Pune",
     board: "Savitribai Phule Pune University",
-    score: "8.65 SGPA",
+    score: "8.42 CGPA  / 76.04 %",
+    year: "2022-25",
     coursework: "DSA, DBMS, CN, Web Dev, ML",
   },
   {
@@ -16,6 +17,7 @@ const educationData = [
     institution: "Institute of Technology, Kannad, Chh. Sambhajinagar",
     board: "Maharashtra State Board of Technical Education",
     score: "87.54%",
+    year: "2019-22",
     coursework: "Python, Php, C++, C, Java",
   },
   {
@@ -24,6 +26,7 @@ const educationData = [
     institution: "Mother Ganga English School Kannad",
     board: "Maharashtra State Board",
     score: "73.40%",
+    year: "2019",
   },
 ];
 
@@ -94,7 +97,7 @@ const Education = () => {
         >
           <div className="z-10 relative w-full text-center md:text-left">
             <p className="text-sm font-semibold text-pink-300">{edu.level}</p>
-            <h2 className="text-lg sm:text-xl font-bold my-1">{edu.institution}</h2>
+            <h2 className="text-lg sm:text-xl font-bold my-1">{edu.institution}  ({edu.year})</h2>
             <p className="text-sm text-gray-300"><span className="text-pink-300">Board:</span> {edu.board}</p>
             <p className="text-sm text-gray-300"><span className="text-pink-300">Score:</span> {edu.score}</p>
             <p className="text-sm text-gray-300"><span className="text-pink-300">Coursework:</span> {edu.coursework}</p>

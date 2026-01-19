@@ -9,7 +9,7 @@ import Education from './components/Education';
 import Experience from './components/Experience';
 
 function App() {
-  const [showStart, setShowStart] = useState(true);
+  const [showStart, setShowStart] = useState(false);
 
   useEffect(() => {
     const timer = setTimeout(() => { 
@@ -18,6 +18,8 @@ function App() {
 
     return () => clearTimeout(timer);
   }, []);
+
+  
 
   return (
     <div className="App overflow-x-hidden">

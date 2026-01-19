@@ -10,6 +10,23 @@ export default function Navbar() {
   const [activeIndex, setActiveIndex] = useState(0);
   const [isNavbarInView, setIsNavbarInView] = useState(true);
   const navbarRef = useRef(null);
+  const socialLinks = [
+  {
+    name: "LinkedIn",
+    url: "https://www.linkedin.com/in/mahek-bhartiya/",
+    icon: linkedin,
+  },
+  {
+    name: "GitHub",
+    url: "https://github.com/itz-mahekbhartiya",
+    icon: github,
+  },
+  {
+    name: "Instagram",
+    url: "https://instagram.com/mahek_bhartiya",
+    icon: instagram,
+  },
+];
 
   // Intersection Observer for Navbar
   useEffect(() => {
@@ -66,7 +83,7 @@ export default function Navbar() {
         className="w-screen h-screen bg-[#3a2433] text-white flex flex-col justify-between p-10"
       >
         <div className="mt-[5%]">
-          <h2 className="text-4xl font-semibold font-impact tracking-wide">
+          <h2 className="text-4xl font-semibold font-impact tracking-wide md:tracking-wider md:font-light">
             <span className="text-white">Portfolio.</span>
             <span className='text-[#F0CAA3]'><br className='xl:hidden'/>mahekBhartiya();</span>
           </h2>
@@ -103,35 +120,21 @@ export default function Navbar() {
             alt="Profile"
             className="w-16 h-16 rounded-full object-cover"
           />
-          <div className="flex gap-4">
-            <a
-              href="https://www.linkedin.com/in/mahek-bhartiya/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 hover:bg-[#2d1a27] px-2 py-1 rounded"
-            >
-              <img src={linkedin} alt="LinkedIn" className="w-6 h-6" />
-              <span className="hidden xl:inline">LinkedIn</span>
-            </a>
-            <a
-              href="https://github.com/itz-mahekbhartiya"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 hover:bg-[#2d1a27] px-2 py-1 rounded"
-            >
-              <img src={github} alt="GitHub" className="w-6 h-6" />
-              <span className="hidden xl:inline">GitHub</span>
-            </a>
-            <a
-              href="https://instagram.com/mahek_bhartiya"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 hover:bg-[#2d1a27] px-2 py-1 rounded"
-            >
-              <img src={instagram} alt="Instagram" className="w-6 h-6" />
-              <span className="hidden xl:inline">Instagram</span>
-            </a>
-          </div>
+          
+<div className="flex gap-4">
+  {socialLinks.map((social) => (
+    <a
+      key={social.name}
+      href={social.url}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="flex items-center gap-2 hover:bg-[#2d1a27] px-2 py-1 rounded"
+    >
+      <img src={social.icon} alt={social.name} className="w-6 h-6" />
+      <span className="hidden xl:inline">{social.name}</span>
+    </a>
+  ))}
+</div>
         </div>
       </div>
     </>

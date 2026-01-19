@@ -4,7 +4,7 @@ import {
   FaHtml5, FaJs, FaJava, FaPython, FaBootstrap,
 } from 'react-icons/fa';
 import {
-  SiTailwindcss, SiMongodb, SiMysql, SiExpress,
+  SiTailwindcss, SiMongodb, SiMysql, SiExpress,SiNextdotjs ,
 } from 'react-icons/si';
 import '../App.css'; // Ensure this imports the updated CSS shown below
 
@@ -15,6 +15,7 @@ const iconMap = {
   Java: <FaJava className="text-red-600" />,
   Python: <FaPython className="text-blue-300" />,
   React: <FaReact className="text-blue-400" />,
+  'Next.js': <SiNextdotjs className="text-white" />,
   'Express.js': <SiExpress className="text-gray-200" />,
   'Node.js': <FaNodeJs className="text-green-500" />,
   'Tailwind CSS': <SiTailwindcss className="text-cyan-400" />,
@@ -30,7 +31,7 @@ const skillsData = [
   },
   {
     title: 'Frameworks and Libraries',
-    skills: ['React', 'Express.js', 'Node.js', 'Tailwind CSS'],
+    skills: ['React','Next.js', 'Express.js', 'Node.js', 'Tailwind CSS'],
   },
   {
     title: 'Databases',
