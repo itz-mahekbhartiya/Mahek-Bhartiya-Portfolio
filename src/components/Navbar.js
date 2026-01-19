@@ -87,9 +87,9 @@ export default function Navbar() {
             <span className="text-white">Portfolio.</span>
             <span className='text-[#F0CAA3]'><br className='xl:hidden'/>mahekBhartiya();</span>
           </h2>
-          <p className="text-xl mt-2">A Full Stack Developer</p>
-          <p className="text-lg max-w-1/2 mt-4 text-justify">
-            Hi! I'm a tech enthusiast who turns ideas into interactive, intelligent, and impactful digital experiences one line of code at a time.
+          <p className="text-xl mt-2 tracking-wider">A Full Stack Developer</p>
+          <p className="text-lg max-w-1/2 mt-4 text-justify pr-4 tracking-wide md:pr-60 md:tracking-wider">
+            I am a dedicated Full-Stack Developer with a passion for building robust digital solutions that bridge the gap between complex backend logic and intuitive user experiences. From architecting database synchronization systems to crafting real-time attendance trackers, I thrive on turning challenging problems into efficient code. Constantly evolving and exploring the intersection of Web Development and Machine Learning.
           </p>
         </div>
 
